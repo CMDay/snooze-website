@@ -1,4 +1,4 @@
-CMDaySnoozeWebsite
+CMDaySnooze
 ==================
 
-Promo website for the CMDay .snooze app
+Promo website for the CMDay.snooze app
