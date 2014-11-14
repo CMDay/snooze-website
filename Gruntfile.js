@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           }
         },
         files: {
-          'distribution/assets/main.min.js': [
+          'distribution/assets/main.js': [
             'source/assets/vendor/jquery/*.js',
             'source/assets/vendor/bootstrap/*.js',
             'source/assets/scripts/helpers.js',
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
       // Distribution minies all
       dist: {
         files: {
-          'distribution/assets/main.min.css': [
+          'distribution/assets/main.css': [
             'source/assets/vendor/**/*.css',
             'source/assets/styles/base.css',
             'source/assets/styles/components/*.css',
@@ -119,7 +119,7 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'source/assets/images',
             src: ['*.png','*.jpg'],
-            dest: 'development/assets/images/',
+            dest: 'development/images/',
             flatten: true,
             filter: 'isFile'
           }
@@ -145,7 +145,7 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'source/assets/images',
             src: ['*.png','*.jpg'],
-            dest: 'distribution/assets/images/',
+            dest: 'distribution/images/',
             flatten: true,
             filter: 'isFile'
           }
