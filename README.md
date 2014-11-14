@@ -31,7 +31,7 @@ In de console / terminal:
 	└assets
 		├fonts
 		├images
-		├scripts	<-- JS
+		├scripts		<-- JS
 		├styles		<-- CSS
 		├vendor		<-- 3de partij software
 		└views		<-- HTML
