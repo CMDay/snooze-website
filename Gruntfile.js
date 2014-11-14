@@ -9,6 +9,9 @@ module.exports = function(grunt) {
       ],
       dist: [
         'distribution/'
+      ],
+      build: [
+        'build/'
       ]
     },
     // Minify JavaScript (only)
