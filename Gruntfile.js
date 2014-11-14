@@ -114,6 +114,14 @@ module.exports = function(grunt) {
             dest: 'development/assets/fonts/',
             flatten: true,
             filter: 'isFile'
+          },
+          {
+            expand: true,
+            cwd: 'source/assets/images',
+            src: ['*.png','*.jpg'],
+            dest: 'development/assets/images/',
+            flatten: true,
+            filter: 'isFile'
           }
         ]
       },
@@ -130,6 +138,14 @@ module.exports = function(grunt) {
             cwd: 'source/assets/',
             src: ['fonts/*.*','vendor/**/fonts/*.*'],
             dest: 'distribution/assets/fonts/',
+            flatten: true,
+            filter: 'isFile'
+          },
+          {
+            expand: true,
+            cwd: 'source/assets/images',
+            src: ['*.png','*.jpg'],
+            dest: 'distribution/assets/images/',
             flatten: true,
             filter: 'isFile'
           }
