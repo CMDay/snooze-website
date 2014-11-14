@@ -1,11 +1,11 @@
 # CMDaySnooze
 
 		
-	__CMDay__: https://github.com/CMDay
+	CMDay: https://github.com/CMDay
 	Auteurs:
 		Roel Antonisse - Front-end development
 		Cyd Stumpel - Visueel design
-	Update: _14/11/2014_
+	Update: 14/11/2014
 		
 
 Promo website voor de CMDay.snooze app. Gebouwd met [Bootstrap](http://getbootstrap.com/).
