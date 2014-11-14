@@ -8,7 +8,7 @@
 	Update: 14/11/2014
 		
 
-Promo website voor de CMDay.snooze app. Gebouwd met [Bootstrap](http://getbootstrap.com/).
+Promo website voor de CMDay.snooze app. Gebouwd met [Bootstrap](http://getbootstrap.com/). Bekijk hier de website op Github: [CMDay Snooze](CMDay.github.io/snooze-website).
 
 ## Benodigdheden
 
