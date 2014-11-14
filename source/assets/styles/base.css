@@ -1,3 +1,79 @@
+@font-face {
+  font-family: 'CMDay Icons';
+
+  src: url('fonts/cmday-icons.eot');
+  src: url('fonts/fonts/cmday-icons.eot?#iefix') format('embedded-opentype'), url('fonts/fonts/cmday-icons.woff') format('woff'), url('fonts/cmday-icons.ttf') format('truetype'), url('fonts/cmday-icons.svg#cmday-icons') format('svg');
+}
+
+body {
+	font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.cmdayicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'CMDay Icons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.cmdayicon-alarm:before {
+	content: "1";
+}
+
+.cmdayicon-hat:before {
+	content: "2";
+}
+
+.cmdayicon-play:before {
+	content: "3";
+}
+
+.cmdayicon-nobrains:before {
+	content: "4";
+}
+
 .cmday-facebook-likes {
 	font-size: 2em;
+}
+.cmday-heading {
+	margin: 0;
+	height: 378px;
+	background-image: url('../images/website-banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.cmday-banner {
+/*	background-color: rgb(30,65,140);
+*/}
+.cmday-banner-description {
+	margin: 1em;
+/*	background-color: #fff;
+	background-color: rgba(255,255,255,0.8);
+*/	border-radius: 10px;
+}
+.cmday-banner-storelinks {
+	padding: 1em 0;
+}
+.cmday-banner-storelinks a {
+	margin-right: 1em;
+}
+.cmday-mini-info {
+	text-align: center;
+}
+.cmday-mini-info-header {
+	font-size: 20em;
+}
+.cmday-mini-info-heading {
+	margin-top: -2em;
+}
+.cmday-mini-info-text {
+	font-size: 1.5em;
+}
+.hidden {
+	display: none;
 }
